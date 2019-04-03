@@ -1,0 +1,17 @@
+/**
+ * SCSS file for the list component and its children/elements
+ */
+
+.list{
+  padding: 10px 0;
+  &__item{
+    padding: 10px;
+  }
+
+  &__input{
+    display: flex;
+    input {
+      padding: 10px;
+    }
+  }
+}

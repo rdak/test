@@ -1,0 +1,13 @@
+// will use border-box
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

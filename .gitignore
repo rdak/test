@@ -1,0 +1,16 @@
+# Visual Studio Code
+*.code-workspace
+.vscode/*
+google_search.js
+
+# OSX
+.DS_Store
+
+# Node
+node_modules
+
+# Build
+dist
+
+# Env
+env/config.js
