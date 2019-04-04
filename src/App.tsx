@@ -71,6 +71,16 @@ export class App extends Component<{}, IAppState> {
             add={this.add}
             remove={this.remove}
           />
+          <List
+            list={list}
+            add={this.add}
+            remove={this.remove}
+          />
+          <List
+            list={list}
+            add={this.add}
+            remove={this.remove}
+          />
         </Container>
         <Footer />
       </>
