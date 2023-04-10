@@ -1,9 +1,5 @@
-import React from 'react';
+import React from "react";
 
-export const Container: React.SFC<{}> = (props) => {
-  return (
-    <div className="container">
-      {props.children}
-    </div>
-  );
-}
+export const Container: React.FC<React.PropsWithChildren> = (props) => {
+	return <div className="container">{props.children}</div>;
+};

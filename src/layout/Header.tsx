@@ -1,9 +1,5 @@
-import React from 'react';
+import React from "react";
 
-export const Header: React.SFC<{}> = (props) => {
-  return (
-    <div className="header">
-      Header
-    </div>
-  );
-}
+export const Header: React.FC = (props) => {
+	return <div className="header">Header</div>;
+};
